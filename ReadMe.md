@@ -1,0 +1,1 @@
+Bot for getting information: currency, weather, news, conversion units
