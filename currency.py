@@ -26,9 +26,7 @@ from bs4 import BeautifulSoup
 #           'CggAEEcQsAMQyQM6BwgAELADEEM6EAguEMcBENEDEMgDELADEEM6EAguEMcBEKMCEMgDELADEEM6BggAEAcQHjoHCCMQsAIQJzoMCCM' \
 #           'QsAIQJxBGEIICOgUIABCABEoECEEYAEoECEYYAVD6C1ibIWCAMmgBcAJ4AIABYYgBswaSAQIxMZgBAKABAcgBE8ABAQ&sclient=gws-wiz'
 # headers = {
-#     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.46'
-#                   '64.93 Safari/537.36'
-# }
+# }     # YOUR USER AGENT
 #
 #
 # class Currency():
@@ -47,6 +45,8 @@ from bs4 import BeautifulSoup
 #         convert = soup.findAll('span', {'class': 'pclqee'})
 #         convert = ((convert[0].text).replace('\xa0', ''))
 #         return (float(convert.replace(',', '.')))
+
+
 url_usd = 'https://quote.rbc.ru/ticker/72413'
 url_eur = 'https://quote.rbc.ru/ticker/59090'
 url_btc = 'https://www.rbc.ru/crypto/currency/btcusd'
